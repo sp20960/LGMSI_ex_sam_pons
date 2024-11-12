@@ -11,22 +11,23 @@ body{
   text-align: center;
 }
 
-img{
-  width: 10%;
+#logo{
+  width: 160px;
+  margin-top: 15px;
 }
 
 header{
-  text-align: center;
   background-color: #d3d0cb;
+  padding: 10px;
 }
 
-header>nav>a{
+nav a{
   text-decoration: none;
   color: #1e2019;
   padding: 10px;
 }  
 
-nav>a:hover{
+nav a:hover{
   font-weight: bold;
   text-decoration: underline;
 }
@@ -39,7 +40,7 @@ form{
   border-style: solid;
   border-radius: 15px;
   border-width: 1px;
-  width: 45%;
+  width: 60%;
   display: inline-block;
   padding: 5px;
 }
@@ -74,6 +75,10 @@ input[type="submit"]{
 
 h1{
   padding: 20px;
+}
+
+h3{
+  padding: 10px;
 }
 
 div>p>a{
