@@ -48,19 +48,24 @@ nav :not(.selected-link){
 
 /*Añadir bordes punteados de tamaño 0.15em y del color c2 al último enlace que hay como hijo directo en el nav del encabezado que está junto a una imagen*/
 
-header nav a:last-child{
+header nav > a:last-child{
   border: 0.15em #1e2019 dotted;
+  
 }
 
 /*Aplica márgenes interiores superiores e inferiores de 2em al nav con la clase "social-media" que está en el pie de página usando una sola propiedad*/
 
-footer .social-media{
-  margin: 2em 0;
+footer nav.social-media{
+  padding: 2em 0;
 }
 
 /*Selecciona el formulario que está a continuación de un título h1 y céntralo horizontalmente y también ese título que es descendiente directo del main*/
 
-main h1 + form{
+main > h1{
+  text-align: center;
+}
+
+main > h1 + form{
   margin: 0 auto;
 }
 
